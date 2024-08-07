@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Proyectos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="index3.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <div class="listado">
+            <nav>
+                <ul>
+                    <li><a href="#proyecto1">Proyecto 1</a></li>
+                    <li><a href="#proyecto2">Proyecto 2</a></li>
+                    <li><a href="#proyecto3">Proyecto 3</a></li>
+                    <li><a href="#proyecto4">Proyecto 4</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <!-- Proyectos -->
+    <section id="proyecto1">
+        <div class="proyecto">
+            <h2>Proyecto 1</h2>
+            <h3>Implementación de una Galería de Arte con Gestión de Visitas Diarias</h3>
+            <img src="galeria.jpg">
+        </div>
+            <dl>
+                <dt>Descripción del proyecto</dt><br>
+                <dd>
+                    Implementé un sistema de gestión de visitas diarias para una galería de arte, 
+                    que incluía la administración de grupos de visitantes, registro histórico de visitas y 
+                    análisis de preferencias de los visitantes. Este sistema fue construido utilizando múltiples 
+                    módulos interconectados, cada uno encargado de diferentes aspectos del manejo de las visitas 
+                    y los datos de los visitantes.
+                </dd><br>
+                <dt>Habilidades y Herramientas Utilizadas:</dt>
+                <dd>
+                    <ul>
+                        <li>Lenguaje de Programación: C/C++</li>
+                        <li>Estructuras de Datos: Heap binario (montículo binario), Tabla de Dispersión Abierta</li>
+                        <li>Algoritmos: Inserción y eliminación en heaps, manejo de tablas hash, filtrado ascendente y descendente</li>
+                        <li>Conceptos: TAD (Tipo Abstracto de Datos), gestión dinámica de memoria, manipulación de punteros</li>
+                        <li>Desarrollo de Software: Implementación de módulos y cumplimiento de especificaciones de tiempo de ejecución</li>
+                    </ul>
+                </dd>
+                <dt>Detalles técnicos</dt><br>
+                <dt2>Módulo Visita Día(TAD Cola de Prioridad):</dt2>
+                <dd>
+                    <ul>
+                        <li>Heap Binario: Implementé un heap binario utilizando arrays para gestionar la prioridad de los grupos de
+                             visitantes, con operaciones de inserción y eliminación eficientes.</li>
+                        <li>Funciones Clave: Crear visitas diarias, encolar grupos, verificar pertenencia, obtener fecha, invertir 
+                            prioridad, y desencolar grupos.</li>
+                    </ul>
+                </dd>
+                <dt2>Módulo Hash Visita Día(TAD Tabla)</dt2>
+                <dd>
+                    <ul>
+                        <li>Tabla de Dispersión Abierta: Implementé una tabla hash para almacenar históricamente las visitas diarias,
+                             permitiendo inserciones y búsquedas eficientes.</li>
+                        <li>Funciones Clave: Crear y liberar tabla hash, agregar visitas diarias, imprimir visitas diarias en orden.</li>
+                    </ul>
+                </dd>
+                <dt2>Módulo Visitante</dt2><br><br>
+                <dd>Piezas Favoritas: Modifiqué el módulo para incluir las piezas favoritas de cada visitante, permitiendo el análisis de 
+                    preferencias para mejorar la satisfacción de las visitas</dd><br>
+                <dt>Resultados</dt>
+                <dd>
+                    <ul>
+                        <li>El sistema permite gestionar eficientemente las visitas diarias a la galería, priorizando a los grupos según 
+                            su edad promedio y almacenando registros históricos para análisis futuros.</li>
+                        <li>Se lograron los objetivos de tiempo de ejecución especificados, demostrando un manejo avanzado de estructuras de datos y algoritmos</li>
+                    </ul>
+                </dd>
+            </dl>
+
+            <h4>Puedes ver el código del proyecto si lo deseas, haz click en el enlace para descargar el archivo comprimido:
+            </h4>
+            <div class="codigo">
+                <a href="proyectoGalería.tar.gz" target="_blank">Descargar código</a>
+            </div>
+
+            <br>
+    </section>
+
+    
+    <section id="proyecto2">
+        
+        <div class="proyecto">
+            <h2>Proyecto 2</h2>
+            <h3>Participación de Talleres Micro:bit</h3>
+            <img src="microbit.jpg">
+        </div>
+        
+        <dl>
+            <dt>Descripción del Proyecto</dt><br>
+            <dd>En colaboración con el Centro Ceibal, participé en un emocionante proyecto orientado a la distribución y utilización de <a href="https://ceibal.edu.uy/plataformas-y-programas/microbit/">Placas Micro:bit</a> 
+                en centros educativos de primaria y secundaria. El objetivo de este proyecto es enseñar a los estudiantes nociones básicas de robótica, electrónica y programación de manera autónoma y lúdica. Las placas micro:bit
+                , basadas en un microcontrolador, cuentan con LEDs, botones, acelerómetro, brújula, Bluetooth y otros sensores, y se pueden programar fácilmente con lenguajes como "scratch" y Python.
+            </dd><br>
+            <dt>Objetivos del Proyecto</dt>
+            <dd>
+                <ul>
+                    <li>Enseñanza Práctica: Acercar a estudiantes y docentes al uso de micro:bit mediante talleres prácticos.</li>
+                    <li>Desarrollo de Habilidades: Fomentar el aprendizaje de robótica, electrónica y programación en un entorno educativo.</li>
+                    <li>Implementación de Proyectos: Guiar a los estudiantes en el desarrollo de proyectos creativos utilizando micro:bit</li>
+                    <li>Evaluación y Mejora: Participar en la evaluación de proyectos y eventos organizados por el Centro Ceibal.</li>
+                </ul>
+            </dd>
+            <dt>Actividades Realizadas</dt>
+            <dd>
+                <ul>
+                    <li>Dictado de Talleres: Llevé a cabo talleres para docentes y estudiantes, guiando el desarrollo de proyectos basados en micro:bit en diversos centros educativos.</li>
+                    <li>Desarrollo de Proyectos: Trabajé en el desarrollo de proyectos de robótica utilizando micro:bit , integrando conocimientos de programación y electrónica.</li>
+                    <li>Participación en Eventos: Colaboré en el <a href="https://ceibal.edu.uy/institucional/articulos/cuarto-seminario-de-aprender-haciendo-en-la-educacion-y-microbit-day/">4to seminario Aprender Haciendo</a>, organizado por el Centro Ceibal, promoviendo el uso de micro:bit
+                        y compartiendo experiencias con otros participantes.</li>
+                    <li>Evaluación de Proyectos: Contribuí a la evaluación de proyectos, proporcionando feedback y sugerencias para mejorar las iniciativas de los estudiantes.</li>
+                </ul>
+            </dd>
+            <dt>Reflexión Personal</dt><br>
+            <dd>
+                Este proyecto ha sido una experiencia enriquecedora que no solo me ha permitido aplicar mis conocimientos en un contexto práctico, sino que también me ha brindado 
+                la satisfacción de ver cómo estudiantes y docentes se entusiasman y aprenden nuevas habilidades. La combinación de enseñanza y desarrollo de proyectos en un entorno 
+                colaborativo y creativo ha sido una experiencia sumamente gratificante.
+            </dd>
+        </dl>
+        
+    </section>
+
+    <section id="proyecto3">
+        <div class="proyecto">
+            <h2>Proyecto 3</h2>
+            <h3>Laboratorio de Física Experimental II</h3>
+            <img src="setupP3.png">
+        </div>
+
+        <dl>
+            <dt>Descripción del Curso</dt><br>
+            <dd>En el curso de Laboratorio de Física Experimental II, me acerqué de manera profunda a la actividad 
+                experimental en los campos del electromagnetismo y la óptica. A través de diversas experiencias 
+                prácticas de laboratorio, utilicé instrumental avanzado para la medición de magnitudes eléctricas y 
+                magnéticas, profundizando en el análisis de datos experimentales, el cálculo de incertidumbres y la 
+                comunicación efectiva de resultados.</dd><br>
+            <dt>Objetivos de Aprendizaje</dt><br>
+            <dd>
+                Durante el curso logré:
+                <ul>
+                    <li>Implementación experimental: Seguí directrices específicas para implementar montajes experimentales eficientes y precisos.</li>
+                    <li>Metodología de medición: Apliqué metodologías rigurosas para medir magnitudes físicas, utilizando generadores de voltaje y corriente AC/DC, y osciloscopios.</li>
+                    <li>Herramientas de análisis: Utilicé herramientas avanzadas de análisis de datos experimentales, especialmente estadísticas y ajustes por mínimos cuadrados, interpretando los resultados obtenidos.</li>
+                    <li>Instrumentación: Reconocí y utilicé diversos instrumentos de medición, comprendiendo sus características de funcionamiento.</li>
+                    <li>Representación gráfica: Realicé y analicé gráficos de medidas experimentales y modelos teóricos utilizando SciDAVis para su representación gráfica y conceptual.</li>
+                    <li>Interpretación de resultados: Analicé resultados experimentales y los comparé con modelos físicos propuestos, obteniendo conclusiones sobre el diseño y los resultados de las experiencias.</li>
+                    <li>Comunicación efectiva: Elaboré informes detallados en formato preestablecido y presenté resultados de manera escrita y oral a lo largo del curso.</li>
+                </ul>
+            </dd>
+            <dt>Herramientas Tecnologicas Utilizadas</dt>
+            <dd>
+                <ul>
+                    <li>SciDAVis: Para la representación gráfica interactiva y análisis de datos.</li>
+                    <li>Overleaf: Se utilizó éste editor de LaTeX para la elaboración de los informes de manera colaborativa. </li>
+                </ul>
+            </dd>
+            <dt>Temario del curso</dt>
+            <dd>
+                <ul>
+                    <li>Medidas eléctricas sencillas</li>
+                    <li>Simulaciones de circuitos eléctricos</li>
+                    <li>Uso del osciloscopio</li>
+                    <li>Campos magnéticos</li>
+                    <li>Óptica</li>
+                    <li>Transferencia y tratamiento de señales</li>
+                    <li>Inducción electromagnética</li>
+                    <li>Dispositivos semiconductores</li>
+                </ul>
+            </dd>
+            <dt>Conclusión</dt><br>
+            <dd>Este curso me proporcionó una experiencia integral en el laboratorio, preparándome para abordar problemas 
+                experimentales con una metodología científica rigurosa y habilidades avanzadas de comunicación y análisis de 
+                datos.</dd>
+            <br>
+            <dt>Listado de Informes Científicos Realizados</dt>
+            <br>
+            <dd>
+                Click en el enlace para Descargar PDF
+                <ul>
+                    <li><a href="informe_campo_magnetico.pdf">Práctica 1 - Campo Magnético</a></li>
+                    <li><a href="informe_induccion.pdf">Inducción Electromagnética</a></li>
+                    <li><a href="CircuitosRC_sola_.pdf">Circuitos RC en Régimen Transitorio</a></li>
+                    <li><a href="informe_RC.pdf">Circuitos RC en Régimen Permanente</a></li>
+                    <li><a href="circuitosRLC.pdf">Circuitos RLC en Régimen Permanente</a></li>
+                    <li><a href="informe_optica.pdf">Informe Óptica - Interferencia y Difracción de la Luz</a></li>
+                </ul>
+            </dd>
+        </dl>
+
+    </section>
+    
+    <section id="proyecto4">
+        <div class="proyecto">
+            <h2>Proyecto 4</h2>
+            <h3>Relevamiento y Representación Técnica del Piso 1 de la Facultad</h3>
+            <img src="piso1.jpg">
+        </div>
+
+        <dl>
+            <dt>Descripción del Proyecto</dt><br>
+            <dd>En este proyecto, realicé un relevamiento del 1er Piso de la Facultad de Ingeniería-UdelaR, como 
+                consigna del Taller de Representación y Comunicación Gráfica, colaborando con un equipo de dos 
+                integrantes adicionales. Mi responsabilidad específica fue la elaboración del corte BB, mientras
+                mis compañeros se encargaron de los cortes AA y de la Planta. El objetivo final fue construir 
+                la estructura 3D utilizando los cortes de referencia.</dd><br>
+            <div class="galeria">
+                <img src="comunicacion-grafica.jpg">
+            </div>
+
+            <dt>Detalles del Trabajo Realizado</dt><br>
+            <dt2>Dibujo Croquizado y Técnico de Precisión(CAD)</dt2>
+            <dd>
+                <ul>
+                    <li>Realización de bocetos iniciales del corte BB.</li>
+                    <li>Uso de AutoCAD para la creación de dibujos técnicos precisos, capturando todos los 
+                        detalles necesarios para interpretar, reformar o diseñar la construcción y su equipamiento.</li>
+                </ul>
+            </dd>
+            <dt2>Criterios y Modalidades de Acotado</dt2>
+            <dd>
+                <ul>
+                    <li>Aplicación de criterios específicos para acotar los planos en diferentes etapas, incluyendo relevamiento, diseño y construcción.</li>
+                    <li>Ajustes de precisión para asegurar que los datos capturados fueran exactos y útiles para posteriores fases del proyecto.</li>
+                </ul>
+            </dd>
+            <dt2>Renderización y Configuración para Impresión:
+            </dt2>
+            <dd>
+                <ul>
+                    <li>Integración de los cortes AA, BB y la Planta para generar una representación tridimensional de la estructura en AutoCAD.</li>
+                    <div class="plano">
+                        <div class="lista">
+
+                            <li>Renderización de la estructura 3D para proporcionar una visualización clara y detallada del primer piso.</li>
+                            <li>Configuración de los planos para impresión, asegurando la correcta escala de los objetos y siguiendo pautas específicas de 
+                                edición de estilos de puntas, presentaciones y escalas de trazado.</li>
+                        </div>
+                            <img src="Plano-arquitectonico.jpg">
+                    </div>
+                </ul>
+            </dd>
+            <dt>Herramientas y Tecnologías utilizadas</dt>
+            <dd>
+                <ul>
+                    <li>AutoCAD: Para la creación de dibujos técnicos precisos y la renderización de la estructura 3D.</li>
+                    <li>Técnicas de Croquizado: Para la elaboración de bocetos iniciales y la captura de datos in situ.</li>
+                </ul>
+            </dd>
+            <dt>Habilidades y Competencias  desarrolladas</dt>
+            <dd>
+                <ul>
+                    <li>Introducción en las técnicas de croquizado técnico a mano alzado.</li>
+                    <li>Introducción en la interpretación y criterios de normas de representación de las diferentes ingenierías. </li>
+                    <li>Representación y diseño de ingeniería en relación a su organización espacial en predios, obras , y/o locales industriales.</li>
+                    <li>Ponerse en contacto con los problemas que aborda la ingeniería (proyectos, construcciones, instalaciones, procesos industriales), incorporando la aplicación de las normas, códigos y simbologías de representación gráfica, promoviendo la utilización de medios informáticos. </li>
+                    <li>Práctica y desarrollo de técnicas de exposición (oral, escrita, gráfica) para comunicar y promover proyectos de ingeniería.</li>
+                    <li>Desarrollo de la capacidad para seleccionar los cortes /vistas /secciones, más apropiados para la representación de piezas, elementos estructurales, de construcción, locales y predios.</li>
+                </ul>
+            </dd>
+            <dt>Resultados del Proyecto</dt><br>
+            <dd>El proyecto resultó en la creación de planos técnicos detallados y precisos del primer piso de la 
+                facultad, con todos los cortes necesarios (AA, BB y Planta) integrados en una representación 3D. 
+                Estos planos son fundamentales para futuras interpretaciones, reformas o diseños de la estructura, 
+                proporcionando una base sólida para cualquier trabajo arquitectónico o de ingeniería relacionado 
+                con el edificio.</dd><br>
+
+            <div class="galeria">
+                <embed src="Nocetti Ej_13.pdf" type="application/pdf" width="600" height="500">
+            </div>
+
+            <br>
+
+            <dt>Conclusión</dt><br>
+            <dd>
+                Este proyecto me permitió aplicar y ampliar mis habilidades en relevamiento arquitectónico, 
+                dibujo técnico y uso de AutoCAD, trabajando en equipo para lograr una representación precisa y
+                útil del primer piso de la facultad.
+            </dd>
+
+        </dl>
+        </div>
+    </section>
+</body>
+</html>

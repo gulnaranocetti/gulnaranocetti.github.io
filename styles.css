@@ -1,0 +1,195 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(226, 190, 190);
+    text-align: justify;
+    background-image: url('fondo.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-image: url('fondo.avif');
+    background-attachment: fixed;
+    padding: 20px 0;
+    text-align: center;
+    color: antiquewhite;
+}
+
+
+nav ul {
+    font-size: 1.4em;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0px 50px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+
+nav ul li a:hover {
+    background:rosybrown;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.listado nav ul li a:hover {
+    background: rosybrown;
+}
+
+.listado nav ul li a{
+    color: #fff;
+    background-color: #5b5067b7;;
+    border-radius: 50%;
+    padding: .5%;
+}
+
+section {
+    padding: 20px;
+    font-size: 1.4em;
+    margin: 20px auto;
+    color: rgba(111, 77, 139, 0.849);
+    font-family: "Poppins", sans-serif;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 100%;
+}
+
+.inicio img{
+    border-radius: 0%;
+}
+
+.inicio {
+    font-size: 6em;
+    text-align: center;
+}
+
+.inicio h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+.inicio p {
+    font-size: .8em;
+    background-color: #5b5067b7;
+    color: #fff;
+}
+
+.sobre-mi{
+    display: flex;
+}
+
+.sobre-mi img{
+    margin-left: 5%;
+}
+
+.codigo a{
+    background-color: #555;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+    padding: 1%;
+}
+
+.lista dl dt{
+    font-weight: bold;
+}
+
+
+.galeria {
+    text-align: center;
+}
+
+.galeria img{
+    border-radius: 0%;
+    max-width: 60%;
+}
+
+.plano{
+    display: flex;
+}
+
+.lista {
+    display: block;
+}
+
+.plano img {
+    margin-left: 5%;
+    max-width: 35%;
+}
+
+.proyecto {
+    text-align: center;
+}
+
+.proyecto img {
+    border-radius: 0; /* No redondear las esquinas de las imágenes de proyectos */
+    max-width: 60%;
+}
+
+dl dt{
+    font-weight: bold;
+}
+
+.proyecto h2 {
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.proyecto h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    margin-top: 10px;
+    background: #fff;
+
+    color: rgb(75, 73, 79);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: rosybrown;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
