@@ -76,13 +76,10 @@ img {
     border-radius: 0%;
 }
 
-.inicio {
-    font-size: 6em;
-    text-align: center;
-}
-
 .inicio h1{
+    font-size: 6em;
     font-family: 'Dancing Script', cursive;
+    text-align: center;
 }
 
 .inicio p {
@@ -193,3 +190,9 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Smartphone Pequeño */
+@media screen and (max-width: 568px) {
+    .inicio h1{
+        font-size: 4em;
+    }
+}
