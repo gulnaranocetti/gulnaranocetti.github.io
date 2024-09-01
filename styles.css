@@ -4,9 +4,9 @@ body {
     padding: 0;
     color: rgb(226, 190, 190);
     text-align: justify;
-    background-image: url('fondo.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
 
 header {
@@ -39,7 +39,6 @@ nav ul li a {
 nav ul li a:hover {
     background:rosybrown;
     padding: 10px;
-    margin: 20px auto;
     border-radius: 8px;
     color: #fff;
 }
@@ -191,8 +190,11 @@ body {
 }
 
 /* Smartphone Pequeño */
-@media screen and (max-width: 568px) {
+@media only screen and (max-width: 568px) {
     .inicio h1{
-        font-size: 4em;
+        font-size: 5em;
     }
+    .font-sm-size{
+        font-size: 1rem;
+      }
 }
