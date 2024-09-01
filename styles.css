@@ -42,7 +42,7 @@ nav ul li a:hover {
 } 
 
 section {
-    padding: 6%;
+    padding: 3%;
     font-size: 1.4em;
     margin: 20px auto;
     color: rgba(111, 77, 139, 0.849);
@@ -126,7 +126,7 @@ img {
 
 .proyecto img {
     border-radius: 0; /* No redondear las esquinas de las imágenes de proyectos */
-    max-width: 60%;
+    max-width: 90%;
 }
 
 dl dt{
@@ -192,6 +192,13 @@ body {
         padding: 1.5%;
     } 
 
+    section {
+        max-width: 90%;
+        padding: 5%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
     section {
         max-width: 90%;
     }
