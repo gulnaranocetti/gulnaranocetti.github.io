@@ -4,30 +4,27 @@ body {
     padding: 0;
     color: rgb(226, 190, 190);
     text-align: justify;
-    background: #C6FFDD;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: #3494E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
 header {
-    background-image: url('fondo.avif');
-    background-attachment: fixed;
-    padding: 20px 0;
+    padding: 3% 0;
     text-align: center;
     color: antiquewhite;
 }
 
 
 nav ul {
-    font-size: 1.4em;
+    font-size: 1.5em;
     list-style: none;
     padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0px 50px;
-    font-weight: bold;
 }
 
 nav ul li a {
@@ -37,32 +34,23 @@ nav ul li a {
 
 
 nav ul li a:hover {
-    background:rosybrown;
-    padding: 10px;
-    border-radius: 8px;
-    color: #fff;
-}
-
-.listado nav ul li a:hover {
-    background: rosybrown;
-}
-
-.listado nav ul li a{
-    color: #fff;
-    background-color: #5b5067b7;;
-    border-radius: 50%;
-    padding: .5%;
-}
+    background:rgba(104, 49, 172, 0.375);
+    padding: 4%;
+    border-radius: 1rem;
+    color: antiquewhite;
+    text-decoration: none;
+} 
 
 section {
-    padding: 20px;
+    padding: 6%;
     font-size: 1.4em;
     margin: 20px auto;
     color: rgba(111, 77, 139, 0.849);
     font-family: "Poppins", sans-serif;
-    border-radius: 8px;
-    max-width: 800px;
+    border-radius: 1rem;
+    max-width: 70%;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #ffffff88;
 }
 
 img {
@@ -76,9 +64,11 @@ img {
 }
 
 .inicio h1{
-    font-size: 6em;
+    font-size: 10em;
     font-family: 'Dancing Script', cursive;
     text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .inicio p {
@@ -196,5 +186,24 @@ body {
     }
     .font-sm-size{
         font-size: 1rem;
-      }
+    }
+
+    nav ul li a:hover {
+        padding: 1.5%;
+    } 
+
+    section {
+        max-width: 90%;
+    }
+}
+
+.menu-proy {
+    text-decoration: none;
+    background: none; /* Sin fondo */
+    border: none; /* Sin borde */
+    color: inherit; /* Hereda el color del texto */
+    padding: 0; /* Sin relleno */
+    font: inherit; /* Hereda la fuente de su entorno */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    outline: none; /* Sin contorno al hacer clic */
 }
